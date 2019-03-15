@@ -1,0 +1,31 @@
+# Inputs
+
+Sometimes when a program runs we want the user to input some data manually. This can be achieved with the `input` function.
+
+```python
+prompt = input('Enter a number: ')
+print(prompt)
+```
+
+In the example above we create a variable named prompt and assign a value based on what the user inputs. The stuff in quotation marks is what is shown to the user when the program runs.
+
+In the above example you might notice we ask for a number. But what if the user inputs a string? How do we perform data validation to make sure the type of data the user inputs is what we want?
+
+But before that, what is the type of data when the user inputs a number? You may remember previously about different data types such as strings, integers, and floats. We can check the data type of a variable with the `type` function.
+
+```python
+type(prompt)
+```
+
+If you try it for yourself, you may be surprised to see it is a string. Everything the user inputs is classified as a string. And a string value of `"3"` is very different from an integer value of `3` and different from a float value of `3.0`. So how do we turn a numerical answer like `"3"` from a string into an integer or float? Using the `int()` and `float()` functions.
+
+```python
+prompt = int(prompt)
+prompt = float(prompt)
+```
+
+Now we set the variable `prompt` to equal the integer value of `prompt` and then set it to the float value. You can test for yourself using the `type()` function. But what happens when we try to use the `int()` or `float()` function on a string that cannot be turned into an integer or float such as `"hello world"`? Try for yourself and see what happens.
+
+## Exercise
+
+In this exercise you will need to ask for the user to input 2 variables and then print out a corresponding statement.
