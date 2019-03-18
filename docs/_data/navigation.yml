@@ -1,14 +1,16 @@
 # Belongs at: /_data/navigation.yml
 
-- title: Home
-  url: /
+- title: Wiss Code
+  url: /WISS-Code/python
 
 - title: Group of Things
-  url: /group/
+  url: /lessons/
   sublinks:
     - title: Sub-item 1
-      url: /group/si1
+      url: /lessons/si1
     - title: Sub-item 2
-      url: /group/si2
+      url: /lessons/si2
     - title: Sub-item 3
-      url: /group/si3
+      url: /lessons/si3
+    -title: Math
+      url: /lessons/04_Math
