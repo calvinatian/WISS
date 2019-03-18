@@ -1,3 +1,8 @@
+---
+layout: default
+title: Math
+---
+
 # Math
 
 Using python we can perform arithmetic operations such as addition or division. The basic operators are:
