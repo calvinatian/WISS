@@ -37,4 +37,3 @@ print(var4)
 ```
 
 You can see when we add two strings we get a new string with the combination of the strings used. And when we multiply a string by an integer we get the same string repeated however many times. *note you cannot multiply a string by a float*
-
