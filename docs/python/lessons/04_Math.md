@@ -41,4 +41,10 @@ print(var4)
 # This will print "hellohellohello"
 ```
 
-You can see when we add two strings we get a new string with the combination of the strings used. And when we multiply a string by an integer we get the same string repeated however many times. *note you cannot multiply a string by a float*
+You can see when we add two strings we get a new string with the combination of the strings used. And when we multiply a string by an integer we get the same string repeated however many times.
+\
+*Note you cannot multiply a string by a float*
+
+## Exercise
+
+For this exercise you will need to create 2 integer variables of your choice and then print the result of the 5 basic mathematical operators using those variables. (The operators are addition, subtraction, multiplication, division, and modulus)
