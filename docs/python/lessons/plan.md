@@ -7,7 +7,8 @@
 03. Lists
 04. Math
 05. Inputs
-06. ???
+06. If statements
+07. 
 
 ## Challenge Exercises
 
